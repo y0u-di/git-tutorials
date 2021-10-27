@@ -5,6 +5,8 @@ def fizz_buzz(n)
     'Fizz'
   elsif n%5==0
     'Buzz'
+  elsif n%7==0
+    'git'
   else
     n
   end
